@@ -12,48 +12,27 @@ h6 {
   font-family: 'Montserrat';
 }
 
-hr.star-light,
-hr.star-dark {
-  max-width: 15rem;
+hr {
   padding: 0;
   text-align: center;
   border: none;
   border-top: solid 0.25rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-hr.star-light:after,
-hr.star-dark:after {
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f005';
-  font-family: FontAwesome;
-  font-size: 2em;
-}
-
-hr.star-light {
-  border-color: #fff;
-}
-
-hr.star-light:after {
-  color: #fff;
-  background-color: #18BC9C;
-}
-
-hr.star-dark {
-  border-color: #2C3E50;
-}
-
-hr.star-dark:after {
-  color: #2C3E50;
-  background-color: white;
+hr.name {
+  max-width: 20rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 section {
-  padding: 6rem 0;
+  padding: 3rem 0;
 }
 
 section h2 {
@@ -194,6 +173,10 @@ header.masthead h2 {
   }
 }
 
+.bg-freelancer-header {
+  background: #0d1321 !important;
+}
+
 .portfolio {
   margin-bottom: -15px;
 }
@@ -329,14 +312,6 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
-}
-
-a {
-  color: #18BC9C;
-}
-
-a:focus, a:hover, a:active {
-  color: #128f76;
 }
 
 .btn {

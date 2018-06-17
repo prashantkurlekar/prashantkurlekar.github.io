@@ -13,47 +13,66 @@ h6 {
 }
 
 // Custom Horizontal Rule with Star Icon
-hr.star-light,
-hr.star-dark {
-  max-width: 15rem;
+// hr.star-light,
+// hr.star-dark {
+//   max-width: 15rem;
+//   padding: 0;
+//   text-align: center;
+//   border: none;
+//   border-top: solid 0.25rem;
+//   margin-top: 2.5rem;
+//   margin-bottom: 2.5rem;
+// }
+
+// hr.star-light:after,
+// hr.star-dark:after {
+//   position: relative;
+//   top: -.8em;
+//   display: inline-block;
+//   padding: 0 0.25em;
+//   content: '\f005';
+//   font-family: FontAwesome;
+//   font-size: 2em;
+// }
+
+// hr.star-light {
+//   border-color: $white;
+// }
+// hr.star-light:after {
+//   color: $white;
+//   background-color: $primary;
+// }
+
+// hr.star-dark {
+//   border-color: $secondary;
+// }
+// hr.star-dark:after {
+//   color: $secondary;
+//   background-color: white;
+// }
+hr {
+  // max-width: 15rem;
   padding: 0;
   text-align: center;
   border: none;
   border-top: solid 0.25rem;
-  margin-top: 2.5rem;
-  margin-bottom: 2.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
-hr.star-light:after,
-hr.star-dark:after {
-  position: relative;
-  top: -.8em;
-  display: inline-block;
-  padding: 0 0.25em;
-  content: '\f005';
-  font-family: FontAwesome;
-  font-size: 2em;
-}
-
-hr.star-light {
-  border-color: $white;
-}
-hr.star-light:after {
-  color: $white;
-  background-color: $primary;
-}
-
-hr.star-dark {
-  border-color: $secondary;
-}
-hr.star-dark:after {
-  color: $secondary;
-  background-color: white;
+hr.name {
+  max-width: 20rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 // Section Padding Settings
 section {
-  padding: 6rem 0;
+  padding: 3rem 0;
   h2 {
     font-size: 2.25rem;
     line-height: 2rem;

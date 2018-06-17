@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato';
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1,
@@ -17,18 +17,18 @@ hr {
   text-align: center;
   border: none;
   border-top: solid 0.25rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
 }
 
 hr.name {
   max-width: 20rem;
-  padding: 0;
-  text-align: center;
-  border: none;
-  border-top: solid 0.25rem;
   margin-top: 1.5rem;
   margin-bottom: 1.5rem;
+}
+
+hr.skills {
+  max-width: 6rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 section {
@@ -73,6 +73,12 @@ section h2 {
   line-height: 3.1rem;
 }
 
+.img-circle {
+  max-width: 256px;
+  max-height: 256px;
+  border-radius: 10%;
+}
+
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -94,7 +100,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-  color: #18BC9C;
+  color: #2f70a1;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
@@ -102,7 +108,7 @@ section h2 {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
-  color: #18BC9C;
+  color: #2f70a1;
 }
 
 #mainNav .navbar-toggler {
@@ -129,11 +135,11 @@ section h2 {
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
     color: #fff;
-    background: #18BC9C;
+    background: #2f70a1;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
     color: #fff;
-    background: #18BC9C;
+    background: #2f70a1;
   }
   #mainNav.navbar-shrink {
     padding-top: 0.5rem;
@@ -156,7 +162,7 @@ header.masthead h1 {
 
 header.masthead h2 {
   font-size: 1.3rem;
-  font-family: 'Lato';
+  font-family: 'Open Sans', sans-serif;
 }
 
 @media (min-width: 992px) {
@@ -193,7 +199,7 @@ header.masthead h2 {
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background-color: rgba(24, 188, 156, 0.9);
+  background-color: rgba(47, 112, 161, 0.9);
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -296,7 +302,7 @@ header.masthead h2 {
 }
 
 .floating-label-form-group-with-focus label {
-  color: #18BC9C;
+  color: #2f70a1;
 }
 
 form .row:first-child .floating-label-form-group {
@@ -319,7 +325,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .bg-primary {
-  background-color: #18BC9C !important;
+  background-color: #2f70a1 !important;
 }
 
 .bg-secondary {
@@ -327,7 +333,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .text-primary {
-  color: #18BC9C !important;
+  color: #2f70a1 !important;
 }
 
 .text-secondary {
@@ -335,13 +341,13 @@ form .row:first-child .floating-label-form-group {
 }
 
 .btn-primary {
-  background-color: #18BC9C;
-  border-color: #18BC9C;
+  background-color: #2f70a1;
+  border-color: #2f70a1;
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #128f76;
-  border-color: #128f76;
+  background-color: #23557a;
+  border-color: #23557a;
 }
 
 .btn-secondary {

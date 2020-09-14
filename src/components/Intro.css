@@ -1,0 +1,20 @@
+.center-img {
+  display: flex;
+  place-items: center;
+  gap: 0.5ch;
+  font-size: 20vmin;
+}
+
+img {
+  max-block-size: 1.25em;
+  border-radius: 5%;
+  margin: auto;
+  max-width: 50%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}

@@ -17,7 +17,7 @@ import './App.css';
 
 import React from 'react';
 
-import { IonApp, IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
+import { IonApp, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
 
 import AboutMe from './components/AboutMe';
 import Intro from './components/Intro';

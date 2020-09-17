@@ -17,30 +17,36 @@ import './App.css';
 
 import React from 'react';
 
-import { IonApp, IonContent, IonHeader, IonPage, IonTitle, IonToolbar } from '@ionic/react';
+import { IonApp, IonCol, IonContent, IonGrid, IonHeader, IonPage, IonRow, IonTitle, IonToolbar } from '@ionic/react';
 
 import AboutMe from './components/AboutMe';
 import Intro from './components/Intro';
+import Skills from './components/Skills';
 
-const App: React.FC = () => (
-  <IonApp>
-    <IonPage>
-      <IonHeader>
-        <IonToolbar>
-          <IonTitle>Prashant Kurlekar</IonTitle>
-        </IonToolbar>
-      </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
+const App: React.FC = () => {
+  const myName = 'Prashant Kurlekar';
+
+  return (
+    <IonApp>
+      <IonPage>
+        <IonHeader>
           <IonToolbar>
-            <IonTitle size="large">Prashant Kurlekar</IonTitle>
+            <IonTitle>{myName}</IonTitle>
           </IonToolbar>
         </IonHeader>
-        <Intro></Intro>
-        <AboutMe></AboutMe>
-      </IonContent>
-    </IonPage>
-  </IonApp>
-);
+        <IonContent fullscreen>
+          <IonHeader collapse="condense">
+            <IonToolbar>
+              <IonTitle size="large">{myName}</IonTitle>
+            </IonToolbar>
+          </IonHeader>
+          <Intro></Intro>
+          <Skills></Skills>
+          <AboutMe></AboutMe>
+        </IonContent>
+      </IonPage>
+    </IonApp>
+  );
+};
 
 export default App;

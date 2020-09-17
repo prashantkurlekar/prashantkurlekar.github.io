@@ -1,0 +1,18 @@
+.content-center {
+  margin: auto;
+  max-width: 1024px;
+}
+
+/* Set variables for all modes */
+:root {
+  /* Set the font family of the entire app */
+  /* --ion-font-family: 'Cabin Sketch', 'Nixie One', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', sans-serif; */
+  /* --ion-font-family: 'Cabin Sketch', cursive; */
+  /* --ion-font-family: 'Nixie One', cursive; */
+  --ion-font-family: 'Balsamiq Sans', cursive;
+}
+
+Skills {
+  bottom: 0;
+  left: 0;
+}

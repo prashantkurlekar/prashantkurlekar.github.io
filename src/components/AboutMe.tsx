@@ -1,13 +1,17 @@
-import { IonItem, IonLabel, IonList } from '@ionic/react';
+import './AboutMe.css';
 
 import React from 'react';
 
+import { IonItem, IonLabel, IonList } from '@ionic/react';
+
 const AboutMe: React.FC = () => (
-  <IonList lines="none">
+  <IonList lines="none" className="content-center">
+    <h1>About me / Who am I</h1>
     <IonItem>
       <IonLabel className="ion-text-wrap">
-        A developer with more than 17 years of experience, I have worked at large software consulting organisations as well as small startups. Proficient in
-        Full Stack (.NET) development, my expertise lies in building mobile applications and mobile first websites with scalable backend APIs.
+        A developer with more than {new Date().getFullYear() - 2004} years of experience, I have worked at large software consulting organisations as well as
+        small startups. Proficient in Full Stack (.NET) development, my expertise lies in building mobile applications and mobile first websites with scalable
+        backend APIs.
       </IonLabel>
     </IonItem>
     <IonItem>
@@ -18,7 +22,7 @@ const AboutMe: React.FC = () => (
     </IonItem>
     <IonItem>
       <IonLabel className="ion-text-wrap">
-        I have worked on projects for diverse domains like Social Networking, Telecom, e-Commerce, HealthCare and Media Distribution
+        I have worked on projects for diverse domains like Social Networking, Telecom, e-Commerce, HealthCare and Insurance.
       </IonLabel>
     </IonItem>
   </IonList>

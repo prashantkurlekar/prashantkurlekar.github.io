@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 
 <head>
   <meta charset="UTF-8">
@@ -11,10 +11,10 @@
 </head>
 
 <body id="page-top">
-  <nav>
+  <nav class="bg-zinc-400">
     <div class="flex justify-between items-center">
       <div>
-        <h1 class="text-3xl p-4">
+        <h1 class="font-semibold text-3xl text-yellow-300 pl-4">
           <a href="#page-top">Prashant Kurlekar</a>
         </h1>
       </div>
@@ -34,47 +34,45 @@
     </div>
   </nav>
 
-  <header class="">
-    <div>
-      <img src="img/PrashantKurlekarAvatar-2008.jpg" alt="Prashant Kurlekar" class="rounded sm:w-20">
-      <h3 class="text-3xl p-4">Prashant Kurlekar</h3>
-    </div>
-    <div>
-      <hr>
-      <h4>Frontend / Full Stack(.NET)</h4>
+  <header>
+    <div class="flex flex-col items-center">
+      <div class="flex flex-col items-center">
+        <img src="img/PrashantKurlekarAvatar-2008.jpg" alt="Prashant Kurlekar" class="rounded-2xl shadow-2xl">
+        <!-- <h3>Prashant Kurlekar</h3> -->
+      </div>
+      <div class="pt-4">
+        <h4>Frontend / Full Stack(.NET)</h4>
+      </div>
     </div>
   </header>
 
-  <main>
-    <section id="aboutme">
+  <main class="p-4 md:px-28 lg:px-48">
+    <section id="aboutme" class="flex flex-col">
+      <h4 class="text-2xl border-b-2">About Me</h4>
+
       <div>
-        <h4>About Me</h4>
-        <hr>
-        <div>
-          <div>
-            <p>
-              A Software developer with <span id="experience"></span>+ years of experience, I have worked at large software consulting organisations as well as small startups. Proficient in Full Stack (.NET) developement, my expertise lies in building mobile applications and mobile first websites with scalable backend APIs.
-            </p>
-            <p>
-              I have been a Technical Architect for Microsoft Azure and .NET based applications.
-            </p>
-            <p>
-              I have experience of working in Agile / Scrum methodology, and have also played the role of a Scrum Master.
-            </p>
-            <p>
-              I have worked on projects for diverse domains like Social Networking, Telecom, e-Commerce, HealthCare and Media Distribution
-            </p>
-          </div>
+        <div class="flex flex-col pt-4 gap-y-4">
+          <p>
+            A Software developer with <span id="experience"></span>+ years of experience, I have worked at large software consulting organisations as well as small startups. Proficient in Full Stack (.NET) development, my expertise lies in building mobile applications and mobile first websites with scalable backend APIs.
+          </p>
+          <p>
+            I have been a Technical Architect for Microsoft Azure and .NET based applications.
+          </p>
+          <p>
+            I have experience of working in Agile / Scrum methodology, and have also played the role of a Scrum Master.
+          </p>
+          <p>
+            I have worked on projects for diverse domains like Social Networking, Telecom, e-Commerce, HealthCare and Media Distribution
+          </p>
         </div>
-        <h5>Skills</h5>
-        <hr>
-        <div class="flex flex-row">
+        <div class="flex flex-col pt-4 gap-y-2">
+          <h5 class="text-lg border-b-2">Skills</h5>
           <p>
             <a href="http://reactjs.org">react</a>,
-            <a href="https://ionicframework.com">ionic</a>,
-            <a href="https://angular.io">angular</a>,
             <a href="https://tailwindcss.com">tailwindcss</a>,
-            <a class="text-white text-center" href="https://getbootstrap.com/">Bootstrap</a>
+            <a href="https://ionicframework.com">ionic</a>,
+            <a href="https://angular.io">angular</a>
+            <!-- , <a href="https://getbootstrap.com/">Bootstrap</a> -->
           </p>
           <p>
             .NET, SQL Server, C#, JavaScript, TypeScript
@@ -86,20 +84,17 @@
       </div>
     </section>
 
-    <section id="experience">
-      <div class="flex flex-row">
-        <h4>Work Experience</h4>
-        <hr>
+    <section id="experience" class="flex flex-col mt-4">
+      <h4 class="text-2xl border-b-2">Work Experience</h4>
 
+      <div class="grid grid-cols-1">
         <div>
           <div>
-            <div>
-              <h5>
-                <a href="https://www.cbhs.com.au/" target="_blank">
-                  CBHS Health Fund Limited
-                </a>
-              </h5>
-            </div>
+            <h5>
+              <a href="https://www.cbhs.com.au/" target="_blank">
+                CBHS Health Fund Limited
+              </a>
+            </h5>
           </div>
           <div>
             <div>
@@ -276,7 +271,6 @@
         </div>
 
         <div>
-
           <div>
             <div>
               <h5>
@@ -309,9 +303,8 @@
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- <div>
+        <!-- <div>
         <h4 >Side projects</h4>
         <div>
 
@@ -321,7 +314,7 @@
         </div>
       </div> -->
 
-      <!-- <div>
+        <!-- <div>
       <div>
         <div>
           <h3>
@@ -331,13 +324,15 @@
       </div>
     </div> -->
 
+      </div>
+
     </section>
 
-    <section id="contact">
+    <section id="contact" class="mt-4">
       <div>
-        <h4>Contact Me</h4>
-        <hr>
-        <div>
+        <h4 class="text-2xl border-b-2">Contact Me</h4>
+
+        <div class="flex sm:flex-col sm:justify-start md:flex-row md:justify-between">
           <div>
             <h5>
               <!-- <i></i> -->

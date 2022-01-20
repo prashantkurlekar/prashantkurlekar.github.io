@@ -2,186 +2,169 @@
 <html lang="en">
 
 <head>
-
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta name="description" content="">
+  <meta name="author" content=""> -->
   <title>Prashant Kurlekar</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom fonts for this template -->
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-  <!-- Plugin CSS -->
-  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
-
-  <!-- Custom styles for this template -->
-  <link href="css/freelancer.min.css" rel="stylesheet">
-
+  <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
 </head>
 
 <body id="page-top">
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Prashant Kurlekar</a>
-      <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <!-- Menu -->
-        <i class="fa fa-bars"></i>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#aboutme">About Me</a>
-          </li>
-
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#projects">Work Experience</a>
-          </li>
-
-          <li class="nav-item mx-0 mx-lg-1">
-            <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-          </li>
-        </ul>
+  <nav>
+    <div class="flex justify-between items-center">
+      <div>
+        <h1 class="text-3xl p-4">
+          <a href="#page-top">Prashant Kurlekar</a>
+        </h1>
       </div>
+      <ul>
+        <li>
+          <a href="#aboutme">About Me</a>
+        </li>
+
+        <li>
+          <a href="#experience">Work Experience</a>
+        </li>
+
+        <li>
+          <a href="#contact">Contact</a>
+        </li>
+      </ul>
     </div>
   </nav>
 
-  <header class="masthead bg-freelancer-header text-white text-center">
-    <div class="container">
-      <img class="img-fluid mb-5 d-block mx-auto img-circle" src="img/PrashantKurlekarAvatar-2008.jpg" alt="">
-      <h3 class="text-uppercase mb-0">Prashant Kurlekar</h3>
-      <hr class="name">
-      <h4 class="font-weight-light mb-0">Full Stack(.NET) / Web Developer</h4>
+  <header class="">
+    <div>
+      <img src="img/PrashantKurlekarAvatar-2008.jpg" alt="Prashant Kurlekar" class="rounded sm:w-20">
+      <h3 class="text-3xl p-4">Prashant Kurlekar</h3>
+    </div>
+    <div>
+      <hr>
+      <h4>Frontend / Full Stack(.NET)</h4>
     </div>
   </header>
 
-  <section class="bg-primary text-white mb-0" id="aboutme">
-    <div class="container">
-      <h4 class="text-center text-uppercase text-white">About Me</h4>
-      <hr>
-      <div class="row">
-        <div class="col-lg-12 ml-auto">
-          <p class="lead">
-            A Software developer with <span id="experience"></span>+ years of experience, I have worked at large software consulting organisations as well as small startups. Proficient in Full Stack (.NET) developement, my expertise lies in building mobile applications and mobile
-            first websites with scalable backend APIs.
-          </p>
-          <p class="lead">
-            I have been a Technical Architect for Microsoft Azure and .NET based applications.
-          </p>
-          <p class="lead">
-            I have experience of working in Agile / Scrum methodology, and have also played the role of a Scrum Master.
-          </p>
-          <p class="lead">
-            I have worked on projects for diverse domains like Social Networking, Telecom, e-Commerce, HealthCare and Media Distribution
-          </p>
+  <main>
+    <section id="aboutme">
+      <div>
+        <h4>About Me</h4>
+        <hr>
+        <div>
+          <div>
+            <p>
+              A Software developer with <span id="experience"></span>+ years of experience, I have worked at large software consulting organisations as well as small startups. Proficient in Full Stack (.NET) developement, my expertise lies in building mobile applications and mobile first websites with scalable backend APIs.
+            </p>
+            <p>
+              I have been a Technical Architect for Microsoft Azure and .NET based applications.
+            </p>
+            <p>
+              I have experience of working in Agile / Scrum methodology, and have also played the role of a Scrum Master.
+            </p>
+            <p>
+              I have worked on projects for diverse domains like Social Networking, Telecom, e-Commerce, HealthCare and Media Distribution
+            </p>
+          </div>
         </div>
-      </div>
-      <h5 class="text-center text-uppercase text-white">Skills</h5>
-      <hr class="skills">
-      <div class="row">
-        <div class="col-lg-12 ml-auto">
-          <p class="text-center lead">
-            .NET, SQL Server, C#, JavaScript, TypeScript
-          </p>
-          <p class="text-center lead">
-            <a class="text-white text-center" href="https://ionicframework.com/">ionic</a>,
-            <a class="text-white text-center" href="https://angular.io/">angular</a>, react,
+        <h5>Skills</h5>
+        <hr>
+        <div class="flex flex-row">
+          <p>
+            <a href="http://reactjs.org">react</a>,
+            <a href="https://ionicframework.com">ionic</a>,
+            <a href="https://angular.io">angular</a>,
+            <a href="https://tailwindcss.com">tailwindcss</a>,
             <a class="text-white text-center" href="https://getbootstrap.com/">Bootstrap</a>
           </p>
-          <p class="text-center lead">
+          <p>
+            .NET, SQL Server, C#, JavaScript, TypeScript
+          </p>
+          <p>
             Microsoft Azure, Identity Server, Entity Framework
           </p>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="portfolio" id="projects">
-    <div class="container">
-      <h4 class="text-center text-uppercase text-secondary mb-0">Work Experience</h4>
-      <hr class="star-dark mb-5">
+    <section id="experience">
+      <div class="flex flex-row">
+        <h4>Work Experience</h4>
+        <hr>
 
-      <div class="jumbotron-important">
-        <div class="row">
-          <div class="col">
-            <h5>
-              <a href="https://www.cbhs.com.au/" target="_blank">
-                CBHS Health Fund Limited
-              </a>
-            </h5>
+        <div>
+          <div>
+            <div>
+              <h5>
+                <a href="https://www.cbhs.com.au/" target="_blank">
+                  CBHS Health Fund Limited
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h6>Web Developer</h6>
+            </div>
+            <div>
+              <h6>2016 - ...</h6>
+            </div>
+          </div>
+          <div>
+            <div>
+              <ul>
+                <li>
+                  Building mobile apps
+                  <a href="https://www.cbhs.com.au/member-centre/member-information/cbhs-mobile-app" target="_blank">CBHS Health</a>,
+                  <a href="https://www.cbhscorporatehealth.com.au/information/member-information/cbhs-corporate-health-mobile-app" target="_blank">CBHS Corp</a> and CBHS International. Includes architecting backend APIs and Authentication framework(using Identity Server).
+                </li>
+                <li>
+                  Maintaining
+                  <a href="https://www.cbhs.com.au" target="_blank">CBHS Health Fund</a>,
+                  <a href="https://www.cbhscorporatehealth.com.au/">CBHS Corporate Health</a> and <a href="https://www.cbhsinternationalhealth.com.au/">CBHS International Health</a> websites build on .NET and Sitefinity.
+                </li>
+                <li>
+                  Training developers on ionic, angular, .NET Core and Clean Code principles
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-9 ml-auto">
-            <h6>Web Developer</h6>
-          </div>
-          <div class="col-lg-3 ml-auto">
-            <h6>2016 - ...</h6>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 ml-auto">
-            <ul>
-              <li>
-                Building mobile apps
-                <a href="https://www.cbhs.com.au/member-centre/member-information/cbhs-mobile-app" target="_blank">CBHS Health</a>,
-                <a href="https://www.cbhscorporatehealth.com.au/information/member-information/cbhs-corporate-health-mobile-app" target="_blank">CBHS Corp</a> and CBHS International. Includes architecting backend APIs and Authentication framework(using Identity Server).
-              </li>
-              <li>
-                Maintaining
-                <a href="https://www.cbhs.com.au" target="_blank">CBHS Health Fund</a>,
-                <a href="https://www.cbhscorporatehealth.com.au/">CBHS Corporate Health</a> and <a href="https://www.cbhsinternationalhealth.com.au/">CBHS International Health</a> websites build on .NET and Sitefinity.
-              </li>
-              <li>
-                Training developers on ionic, angular, .NET Core and Clean Code principles
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
 
-      <div class="jumbotron-not-important">
-        <div class="row">
-          <div class="col">
-            <h5>
-              <a href="http://effision.com/" target="_blank">
-                EFFISION
-              </a>
-            </h5>
+        <div>
+          <div>
+            <div>
+              <h5>
+                <a href="http://effision.com/" target="_blank">
+                  EFFISION
+                </a>
+              </h5>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h6>Solutions Developer</h6>
+            </div>
+            <div>
+              <h6>2015 - 2016</h6>
+            </div>
+          </div>
+          <div>
+            <div>
+              <ul>
+                <li>
+                  Worked on developing and maintaining insurance underwriting portal, build on ASP.NET
+                </li>
+                <li>
+                  Built POSFLO a Point of Sale and media distribution mobile app using AngularJS and ionic
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-9 ml-auto">
-            <h6>Solutions Developer</h6>
-          </div>
-          <div class="col-lg-3 ml-auto">
-            <h6>2015 - 2016</h6>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 ml-auto">
-            <ul>
-              <li>
-                Worked on developing and maintaining insurance underwriting portal, build on ASP.NET
-              </li>
-              <li>
-                Built POSFLO a Point of Sale and media distribution mobile app using AngularJS and ionic
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-      <!--
-        <div class="jumbotron-not-important">
-          <div class="row">
-            <div class="col">
+        <!--
+        <div >
+          <div >
+            <div >
               <h5>
                 <a href="https://janison.com/" target="_blank">
                   Janison
@@ -189,25 +172,25 @@
               </h5>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-9 ml-auto">
+          <div >
+            <div >
               <h6>Software Developer</h6>
             </div>
-            <div class="col-lg-3 ml-auto">
+            <div >
               <h6>2014</h6>
             </div>
           </div>
         -->
-      <!-- <div class="row">
-          <div class="col text-center">
+        <!-- <div >
+          <div >
             <h5>2014 - Moved to Australia</h5>
           </div>
         </div> -->
-      <!--
+        <!--
           <br>
 
-          <div class="row">
-            <div class="col">
+          <div >
+            <div >
               <h5>
                 <a href="https://www.citiustech.com/" target="_blank">
                   CitiusTech
@@ -215,140 +198,132 @@
               </h5>
             </div>
           </div>
-          <div class="row">
-            <div class="col-lg-9 ml-auto">
+          <div >
+            <div >
               <h6>Solutions Architect</h6>
             </div>
-            <div class="col-lg-3 ml-auto">
+            <div >
               <h6>2014</h6>
             </div>
           </div>
         </div>
 -->
-      <div class="jumbotron-important">
-        <div class="row">
-          <div class="col">
-            <h5>
-              <a href="https://www.capgemini.com/">
-                Capgemini
-              </a>
-            </h5>
+        <div>
+          <div>
+            <div>
+              <h5><a href="https://www.capgemini.com/">Capgemini</a></h5>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h6>Manager, Technical Lead, Sr. Consultant</h6>
+            </div>
+            <div>
+              <h6>2008 - 2014</h6>
+            </div>
+          </div>
+          <div>
+            <div>
+              <ul>
+                <li>
+                  Worked as Microsoft Azure and MS.NET Technology Lead / Technical Architect
+                </li>
+                <li>
+                  Worked on building scalable backend APIs for hangout and social events app on MS Azure
+                </li>
+                <li>
+                  Led teams for Level 2 and Level 3 support, which was responsible for handling direct customer queries and helping them to complete business processes
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div>
+            <div>
+              Couple of assignment is Switzerland and France.
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-9 ml-auto">
-            <h6>Manager, Technical Lead, Sr. Consultant</h6>
+
+        <div>
+          <div>
+            <div>
+              <h5>3 Global Services (now <a href="http://www.techmbs.in/"> Tech Mahindra Business Services</a>)</h5>
+            </div>
           </div>
-          <div class="col-lg-3 ml-auto">
-            <h6>2008 - 2014</h6>
+          <div>
+            <div>
+              <h6>Project Lead, Sr. Developer</h6>
+            </div>
+            <div>
+              <h6>2005 - 2008</h6>
+            </div>
+          </div>
+          <div>
+            <div>
+              <ul>
+                <li>
+                  Helped to setup the SDLC process, which included minimum documentation for new application development, set code review guidelines and other quality processes
+                </li>
+                <li>
+                  Led projects through various stages of requirement gathering, project planning, writing technical specifications, development, testing and support
+                </li>
+                <li>
+                  Worked as a trainer to conduct ASP.NET (new features) training for the team, which helped developers to quickly learn and implement new features in upcoming projects
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="row">
-          <div class="col-lg-12 ml-auto">
-            <ul>
-              <li>
-                Worked as Microsoft Azure and MS.NET Technology Lead / Technical Architect
-              </li>
-              <li>
-                Worked on building scalable backend APIs for hangout and social events app on MS Azure
-              </li>
-              <li>
-                Led teams for Level 2 and Level 3 support, which was responsible for handling direct customer queries and helping them to complete business processes
-              </li>
-            </ul>
+
+        <div>
+
+          <div>
+            <div>
+              <h5>
+                <a href="https://www.aurionpro.com/">
+                  aurionpro
+                </a>
+              </h5>
+            </div>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 ml-auto">
-            Couple of assignment is Switzerland and France.
+          <div>
+            <div>
+              <h6>Software Developer</h6>
+            </div>
+            <div>
+              <h6>2004 - 2005</h6>
+            </div>
+          </div>
+          <br>
+          <div>
+            <div>
+              <h5>IT PEOPLE/Orient Information Technology</h5>
+            </div>
+          </div>
+          <div>
+            <div>
+              <h6>Trainee Software Developer</h6>
+            </div>
+            <div>
+              <h6>2003 - 2004</h6>
+            </div>
           </div>
         </div>
       </div>
 
-      <div class="jumbotron-not-important">
-        <div class="row">
-          <div class="col">
-            <h5>3 Global Services (now
-              <a href="http://www.techmbs.in/">
-                Tech Mahindra Business Services
-              </a>)
-            </h5>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-9 ml-auto">
-            <h6>Project Lead, Sr. Developer</h6>
-          </div>
-          <div class="col-lg-3 ml-auto">
-            <h6>2005 - 2008</h6>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 ml-auto">
-            <ul>
-              <li>
-                Helped to setup the SDLC process, which included minimum documentation for new application development, set code review guidelines and other quality processes
-              </li>
-              <li>
-                Led projects through various stages of requirement gathering, project planning, writing technical specifications, development, testing and support
-              </li>
-              <li>
-                Worked as a trainer to conduct ASP.NET (new features) training for the team, which helped developers to quickly learn and implement new features in upcoming projects
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+      <!-- <div>
+        <h4 >Side projects</h4>
+        <div>
 
-      <div class="jumbotron-important">
-
-        <div class="row">
-          <div class="col">
-            <h5>
-              <a href="https://www.aurionpro.com/">
-                aurionpro
-              </a>
-            </h5>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-9 ml-auto">
-            <h6>Software Developer</h6>
-          </div>
-          <div class="col-lg-3 ml-auto">
-            <h6>2004 - 2005</h6>
-          </div>
-        </div>
-        <br>
-        <div class="row">
-          <div class="col">
-            <h5>IT PEOPLE/Orient Information Technology</h5>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-9 ml-auto">
-            <h6>Trainee Software Developer</h6>
-          </div>
-          <div class="col-lg-3 ml-auto">
-            <h6>2003 - 2004</h6>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- <div class="container">
-        <h4 class="text-center text-uppercase text-secondary mb-0">Side projects</h4>
-        <div class="jumbotron-not-important">
-
-          <div class="row">
+          <div>
             NSW RTA
           </div>
         </div>
       </div> -->
 
-    <!-- <div class="container">
-      <div class="row">
-        <div class="col text-center">
+      <!-- <div>
+      <div>
+        <div>
           <h3>
             <a href="https://www.icloud.com/#iclouddrive/0pnIuODfHVieIEGdTWmXw22MA" target="_blank">Download Resume</a>
           </h3>
@@ -356,54 +331,55 @@
       </div>
     </div> -->
 
-  </section>
+    </section>
 
-  <section class="bg-primary text-white mb-0" id="contact">
-    <div class="container">
-      <h4 class="text-center text-uppercase text-white mb-0">Contact Me</h4>
-      <hr>
-      <div class="row">
-        <div class="col-md-6 text-center">
-          <h5>
-            <!-- <i class="fa fa-envelope fa-lg"></i> -->
-            <a class="text-white text-center" href="mailto:prashantkurlekar@gmail.com">prashantkurlekar@gmail.com</a>
-          </h5>
-        </div>
+    <section id="contact">
+      <div>
+        <h4>Contact Me</h4>
+        <hr>
+        <div>
+          <div>
+            <h5>
+              <!-- <i></i> -->
+              <a href="mailto:prashantkurlekar@gmail.com">prashantkurlekar@gmail.com</a>
+            </h5>
+          </div>
 
-        <div class="col-md-6 text-center">
-          <h5>
-            <i class="fa fa-mobile fa-lg"></i>
-            <a class="text-white text-center" href="tel:+61466098915">0466 098 915</a>
-          </h5>
+          <div>
+            <h5>
+              <i></i>
+              <a href="tel:+61466098915">0466 098 915</a>
+            </h5>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </main>
 
-  <footer class="footer text-center">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-6 mb-6 mb-lg-0">
-          <h4 class="mb-6">
-            <i class="fa fa-map-signs"></i>
+  <footer>
+    <div>
+      <div>
+        <div>
+          <h4>
+            <i></i>
             Coordinates
           </h4>
-          <p class="lead mb-0">Australia</p>
+          <p>Australia</p>
         </div>
-        <div class="col-md-6 mb-6 mb-lg-0">
-          <ul class="list-inline mb-0">
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/prashankurleka/">
+        <div>
+          <ul>
+            <li>
+              <a href="https://twitter.com/prashankurleka">
                 <i class="fa fa-fw fa-twitter"></i>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://au.linkedin.com/in/prashant-kurlekar">
+            <li>
+              <a href="https://au.linkedin.com/in/prashant-kurlekar">
                 <i class="fa fa-fw fa-linkedin"></i>
               </a>
             </li>
-            <li class="list-inline-item">
-              <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/prashantkurlekar">
+            <li>
+              <a href="https://github.com/prashantkurlekar">
                 <i class="fa fa-fw fa-github"></i>
               </a>
             </li>
@@ -411,38 +387,20 @@
         </div>
       </div>
     </div>
+
+    <div>
+      <div>
+        <small>&copy; Prashant Kurlekar <span id="currentYear"></span></small>
+      </div>
+    </div>
   </footer>
 
-  <div class="copyright py-4 text-center text-white">
-    <div class="container">
-      <small>&copy; Prashant Kurlekar <span id="currentYear"></span></small>
-    </div>
-  </div>
-
   <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-  <div class="scroll-to-top d-lg-none position-fixed ">
-    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-      <i class="fa fa-chevron-up"></i>
+  <div>
+    <a href="#page-top">
+      <i></i>
     </a>
   </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-  <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-
-  <!-- Contact Form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
-
-  <!-- Custom scripts for this template -->
-  <script src="js/freelancer.min.js"></script>
-
-  <!-- Custom scripts -->
-  <script src="js/other-info.js"></script>
 
 </body>
 

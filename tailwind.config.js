@@ -5,3 +5,5 @@ module.exports = {
   },
   plugins: [],
 };
+
+// only required for auto complete in vs code

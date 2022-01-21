@@ -7,10 +7,25 @@
   <!-- <meta name="description" content="">
   <meta name="author" content=""> -->
   <title>Prashant Kurlekar</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300&display=swap');
+  </style>
   <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {},
+          fontFamily: {
+            nunito: ['Nunito', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
 </head>
 
-<body id="page-top">
+<body id="page-top" class="font-nunito">
   <nav class="bg-gray-100 py-4">
     <div class="flex justify-between items-center">
       <div>

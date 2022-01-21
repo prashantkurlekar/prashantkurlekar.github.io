@@ -55,9 +55,9 @@
     <div class="flex flex-col items-center">
       <div class="flex flex-col items-center">
         <img src="img/PrashantKurlekarAvatar-2008.jpg" alt="Prashant Kurlekar" class="rounded-2xl shadow-2xl mt-4 h-36 sm:h-48 md:h-60 lg:h-72">
-        <h3 class="text-lg pt-2">Prashant Kurlekar</h3>
+        <!-- <h3 class="text-lg pt-2">Prashant Kurlekar</h3> -->
       </div>
-      <h4>Frontend / Full Stack(.NET)</h4>
+      <h4 class="pt-4">Frontend / Full Stack(.NET)</h4>
     </div>
   </header>
 
@@ -363,14 +363,14 @@
     document.getElementById('experience').innerHTML = currentYear - yearStarted;
   }
 
-  // function updateCopyright() {
-  //   const currentYear = new Date().getUTCFullYear();
-  //   document.getElementById('currentYear').innerHTML = currentYear;
-  // }
+  function updateCopyright() {
+    const currentYear = new Date().getUTCFullYear();
+    document.getElementById('currentYear').innerHTML = currentYear;
+  }
 
   window.onload = () => {
     updateExperience();
-    // updateCopyright();
+    updateCopyright();
   };
 </script>
 

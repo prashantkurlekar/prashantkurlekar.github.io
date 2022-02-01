@@ -3,5 +3,8 @@
   "name": "prashant-kurlekar",
   "version": "2.0.0",
   "homepage": "https://www.prashantkurlekar.com",
-  "author": "Prashant Kurlekar"
+  "author": "Prashant Kurlekar",
+  "devDependencies": {
+    "tailwindcss": "^3.0.18"
+  }
 }

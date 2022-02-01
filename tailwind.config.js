@@ -1,7 +1,16 @@
 module.exports = {
-  content: ['./src/**/*.{html,js}'],
+  content: ['./index.html'],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        twitter: '#26a7de',
+        linkedin: '#0072b1',
+        github: '#171515',
+      },
+      fontFamily: {
+        nunito: ['Nunito', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
